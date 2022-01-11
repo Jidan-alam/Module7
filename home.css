@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding:0;
+}
+.main-div{
+    display:flex;
+    background-color: rgb(219, 218, 161);
+}
+.img-div{
+    width:30%;
+    margin-left: 100px;
+}
+.img-div img{
+    width:20%;
+}
+.search-div{
+    width:40%;
+    margin-top: 10px;
+}
+.search-div input{
+    width:70%;
+    border-radius: 5px;
+    height:30px;
+
+}
+.search-div span{
+ margin-left: 10px;
+}
+span{
+    color:rgb(65, 2, 59);
+    font-size: 30px;
+}
+.icon-div{
+    margin-left: 10%;
+    margin-top:25px;
+}
+.icon-div span{
+    font-size: 50px;
+    margin:20px;
+    color:black;
+}
+/* first section */
+header{
+    background-color: rgb(8, 0, 0);
+    
+}
+
+.nav{
+    display:flex;
+    margin-left: 60%;
+    
+}
+.nav li{
+    list-style: none;
+    padding:15px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+ color:white;
+   font-weight: bold;
+}
+.nav li:hover{
+    background-color: rgb(124, 120, 120);
+    border-radius: 10px;
+    
+
+}
+
+/* second section */
+.item{
+    display:flex;
+    margin:20px;
+}
+.item img{
+    width:50%;
+}
+.first-item{
+    margin:10px;
+    width:33%;
+    padding:30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 4px rgb(197, 168, 168);
+}
+.first{
+    background-color: rgb(140, 141, 226);
+}
+.second{
+    background-color: rgb(236, 230, 190);
+}
+.third{
+    background-color: rgb(184, 236, 228);
+}
+/*  */
+.game{
+    border:3px solid green;
+    height: 20%;
+    margin-bottom:20px;
+}
+.game:hover .bat img{
+    transform:rotate(-60deg);
+    transform-origin: top right;
+}
+.bat{
+
+}
+.bat img{
+    width:20%;
+}
+.ball{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgb(238, 85, 85);
+    position:relative;
+    left:440px;
+    bottom:30px;
+}
+.game:hover .ball{
+    transform:translate(1200px,-200px);
+    transition:2s;
+}
