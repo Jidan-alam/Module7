@@ -120,3 +120,34 @@ header{
     transform:translate(1200px,-200px);
     transition:2s;
 }
+
+
+/* login form */
+.form-div{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: rgb(200, 240, 181);
+}
+.input{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.input h1{
+    font-size: 3em;
+}
+.input input, button{
+    display: block;
+    width:500px;
+    font-size:1.4em;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.input button{
+    font-size: 1.6em;
+    font-weight: 700;
+    width:300px;
+    margin-left: 70px;
+    background-color: rgba(221, 173, 14, 0.829);
+}
